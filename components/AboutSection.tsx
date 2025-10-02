@@ -34,7 +34,7 @@ export default function App() {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-1000 group-hover:duration-200"></div>
               <div className="relative">
                 <img
-                  src="https://pbs.twimg.com/profile_images/1607725790489202688/hKCfCq_r_400x400.jpg"
+                  src="eu.jpg"
                   alt="Eduardo Szchaida"
                   className="w-48 h-48 object-cover rounded-full shadow-lg lg:order-1 order-2"
                 />
@@ -160,3 +160,4 @@ export default function App() {
     </div>
   );
 }
+
