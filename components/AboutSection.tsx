@@ -100,12 +100,9 @@ export default function App() {
                     </li>
                     <li className="flex items-center gap-2">
                       <span className="text-lg">💻</span>
-                      <span className="hover:text-blue-600 transition-colors">Desenvolvendo meu primeiro SaaS focado em auxiliar pet shops</span>
+                      <span className="hover:text-blue-600 transition-colors">Desenvolvedor fullstack no Instituto de Medicina Laboratorial - INML</span>
                     </li>
-                    <li className="flex items-center gap-2">
-                      <span className="text-lg">🚀</span>
-                      <span className="hover:text-blue-600 transition-colors">Construindo aplicativo voltado para o público católico</span>
-                    </li>
+                 
                   </ul>
                 </div>
                 <p>
@@ -160,4 +157,5 @@ export default function App() {
     </div>
   );
 }
+
 
