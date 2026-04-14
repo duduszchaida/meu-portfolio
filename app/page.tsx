@@ -32,15 +32,6 @@ export default function Home() {
       liveUrl: 'https://jogodojucao.netlify.app/',
     },
     {
-      title: 'Downloader',
-      description:
-        'Downloader Web e Extensão Google de vídeos YouTube criado com Python.',
-      image:
-        'https://res.cloudinary.com/dggewyuon/image/upload/v1732902116/downloader_yenh1y.png',
-      tags: ['Python'],
-      githubUrl: 'https://github.com/duduszchaida/Download-videos',
-    },
-    {
       title: 'Deixe os Astros',
       description:
         'Plataforma para encontrar vídeos de São Josemaria Escrivá de forma organizada, com recursos para auxiliar no dia a dia e difundir os ensinamentos do santo.',
