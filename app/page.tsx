@@ -40,6 +40,15 @@ export default function Home() {
       tags: ['Python'],
       githubUrl: 'https://github.com/duduszchaida/Download-videos',
     },
+    {
+      title: 'Deixe os Astros',
+      description:
+        'Plataforma para encontrar vídeos de São Josemaria Escrivá de forma organizada, com recursos para auxiliar no dia a dia e difundir os ensinamentos do santo.',
+      image: '/saojosemaria.png',
+      tags: ['Next.js', 'Resend', 'Supabase'],
+      githubUrl: 'https://github.com/jonathanhacker111/rastros',
+      liveUrl: 'https://www.deixerastros.com.br/',
+    },
   ];
 
   
