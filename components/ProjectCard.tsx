@@ -12,7 +12,7 @@ interface ProjectCardProps {
   description: string;
   image: string;
   tags: string[];
-  githubUrl: string;
+  githubUrl?: string;
   liveUrl?: string;
   index: number;
 }
@@ -63,11 +63,13 @@ export default function ProjectCard({
           </div>
         </CardContent>
         <CardFooter className="p-6 pt-0 flex gap-4 mt-auto">
+          {githubUrl && (
           <Button variant="outline" size="sm" asChild>
             <a href={githubUrl} target="_blank" rel="noopener noreferrer">
               <FaGithub className="mr-2 h-4 w-4" /> GitHub
             </a>
           </Button>
+          )}
           {liveUrl && (
             <Button variant="outline" size="sm" asChild>
               <a href={liveUrl} target="_blank" rel="noopener noreferrer">
