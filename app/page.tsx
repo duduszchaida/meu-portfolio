@@ -22,14 +22,22 @@ export default function Home() {
       liveUrl: 'https://jucasfa.vercel.app/',
     }, 
     {
-      title: 'Jogo da velha',
+      title: 'VisãoVip',
       description:
-        'Um jogo da velha com uma lógica um pouco diferente...',
+        'Sistema web corporativo desenvolvido para a empresa VisãoVip. Aplicação robusta com interface rica e integração com banco de dados Oracle.',
       image:
-        'https://res.cloudinary.com/dirlqtqgk/image/upload/v1739556095/zultw1vtvtv9h4skodtz.png',
-      tags: ['React', 'TypeScript', 'Tailwind, Vite'],
-      githubUrl: 'https://github.com/duduszchaida/jogo-da-velha',
-      liveUrl: 'https://jogodojucao.netlify.app/',
+        'https://res.cloudinary.com/dirlqtqgk/image/upload/v1736251928/Capturar_pfdgii.png',
+      tags: ['PrimeFaces', 'JSF', 'Oracle Database'],
+      liveUrl: 'https://www.visaovip.com/',
+    },
+    {
+      title: 'EGTX',
+      description:
+        'Site institucional moderno desenvolvido para a empresa EGTX, com foco em performance e design responsivo.',
+      image:
+        'https://res.cloudinary.com/dirlqtqgk/image/upload/v1736251928/Capturar_pfdgii.png',
+      tags: ['Astro', 'React'],
+      liveUrl: 'https://www.egtx.com.br/',
     },
     {
       title: 'Deixe os Astros',
