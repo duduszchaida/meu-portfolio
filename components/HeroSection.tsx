@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Edges } from '@react-three/drei';
-import { FaGithub, FaTwitter, FaEnvelope, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaEnvelope, FaLinkedin } from 'react-icons/fa';
 import { Button } from '@/components/ui/button';
 import { useEffect, useState, useCallback } from 'react';
 import ScrollIndicator from './ScrollIndicator';
@@ -106,7 +106,7 @@ export default function HeroSection() {
             transition={{ delay: 0.4 }}
             className="w-full px-4"
           >
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-2xl mx-auto">
               <Button
                 variant="outline"
                 size="lg"
@@ -133,21 +133,7 @@ export default function HeroSection() {
                   <span className="whitespace-nowrap">LinkedIn</span>
                 </a>
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="w-full bg-black text-white border-black hover:bg-white hover:text-black hover:border-black transition-all duration-300"
-                asChild
-              >
-                <a
-                  href="https://x.com/duduszchaida"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaTwitter className="mr-2 h-4 w-4" />
-                  <span className="whitespace-nowrap">Twitter/X</span>
-                </a>
-              </Button>
+
               <Button
                 variant="outline"
                 size="lg"
