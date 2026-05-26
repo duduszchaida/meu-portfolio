@@ -40,7 +40,7 @@ export default function Home() {
       liveUrl: 'https://www.egtx.com.br/',
     },
     {
-      title: 'Deixe os Astros',
+      title: 'Deixe Rastros',
       description:
         'Plataforma para encontrar vídeos de São Josemaria Escrivá de forma organizada, com recursos para auxiliar no dia a dia e difundir os ensinamentos do santo.',
       image: '/saojosemaria.png',
