@@ -26,7 +26,7 @@ export default function Home() {
       description:
         'Sistema web corporativo desenvolvido para a empresa VisãoVip. Aplicação robusta com interface rica e integração com banco de dados Oracle.',
       image:
-        'https://res.cloudinary.com/dirlqtqgk/image/upload/v1736251928/Capturar_pfdgii.png',
+        '/visaovip.png',
       tags: ['PrimeFaces', 'JSF', 'Oracle Database'],
       liveUrl: 'https://www.visaovip.com/',
     },
@@ -35,7 +35,7 @@ export default function Home() {
       description:
         'Site institucional moderno desenvolvido para a empresa EGTX, com foco em performance e design responsivo.',
       image:
-        'https://res.cloudinary.com/dirlqtqgk/image/upload/v1736251928/Capturar_pfdgii.png',
+        '/egtx.png',
       tags: ['Astro', 'React'],
       liveUrl: 'https://www.egtx.com.br/',
     },
@@ -49,7 +49,7 @@ export default function Home() {
       liveUrl: 'https://www.deixerastros.com.br/',
     },
   ];
-
+ 
   
   const [projects, setProjects] = useState(initialProjects);
   const [showMore, setShowMore] = useState(false);
